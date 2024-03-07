@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+
+menu, ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #dbd8d8;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #c0181d;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
+
+
+button:hover {
+    background-color: #6f2225;
+}
+
+button:disabled {
+    opacity: 0.6;
+}
+
+button:disabled:hover {
+    background-color: #c0181d;
+}
+
+.form-group {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+
+    input {
+        outline: none;
+        border: none;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+    }
+
+    span {
+        display: block;
+        color: #c0181d;
+    }
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+    padding: 0 2rem;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+
+.wrapper {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.upload {
+    text-align: center;
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.check_btn {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.check_load_wrapper {
+    cursor: pointer;
+    width: 10rem;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 1rem;
+}
+
+
+.check_load_img {
+    h4, h3 {
+        font-size: 1rem;
+        color: #fff;
+    }
+}
+
+
+.register_wrapper {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.file-name {
+    color: #c0181d;
+    display: block;
+}
+
+.table {
+    margin: 4rem auto 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table > h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.table_head {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+
+}
+
+.table_head > div {
+    width: 100%;
+    margin: 0 0.5rem;
+}
+
+.table_head > a {
+    display: block;
+    width: 90%;
+    margin: 0 0.5rem;
+    text-decoration: underline;
+}
+
+.table_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+
+}
+
+.table_row > div {
+    width: 100%;
+    margin: 0 0.5rem;
+}
+
+/*.table_row > div:nth-child(1) {*/
+/*    width: 25%;*/
+
+/*}*/
+
+.table_row > a {
+    display: block;
+    width: 100%;
+    margin: 0 0.5rem;
+    text-decoration: underline;
+}
+
+
+.nav > nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav > nav > .hidden > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
